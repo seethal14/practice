@@ -8,11 +8,9 @@ int main(){
         scanf("%d",&ar[i]);
     }
     max=ar[0];
-    for(i=0;i<=n;i++){
+    for(i=0;i<n;i++){
         if(ar[i]>max){
-            temp=ar[i];
-            ar[i]=max;
-            max=temp;
+            max=ar[i];
         }
     }
     printf("tha largest number %d",max);
