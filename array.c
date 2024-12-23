@@ -8,11 +8,11 @@ int main(){
         scanf("%d",&ar[i]);
     }
     min=ar[0];
-    for(i=0;i<=n;i++){
+    for(i=0;i<n;i++){
         if(ar[i]<min){
-            temp=ar[i];
-            ar[i]=min;
-            min=temp;
+            min=ar[i];
+            
+            
         }
     }
     printf("tha smallest number %d",min);
