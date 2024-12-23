@@ -21,7 +21,7 @@ int main(){
 
         printf(" %d\n",arr[i]);
     }
-    printf("secondlargest number\n %d",arr[1]);
+    printf("secondsmallest number\n %d",arr[1]);
 
 
 }
