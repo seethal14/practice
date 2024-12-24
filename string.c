@@ -9,7 +9,7 @@ int main(){
     printf("reversed string\n");
     
     for(int i=length-1;i>=0;i--){
-        printf("%s",s1[i]);
+        printf("%c",s1[i]);
         
     }
     
