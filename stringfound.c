@@ -1,25 +1,24 @@
 #include<stdio.h>
 #include<string.h>
 int main(){
-    char s1[100],s2[100],s3[100];
+    char s1[100],s2[100],a=0;
     printf("eneter a string\n");
     scanf("%s",&s1);
-    printf("enter find out string\n");
+    printf("enter find string\n");
     scanf("%s",&s2);
     int len1=strlen(s1);
     int len2=strlen(s2);
-    for(int i=0;i<len2;i++){
-        for(int j=0;j<len1;j++){
-            if(s2[i]==s1[j]){
-                s3[i]=s1[j];
-                i++;
+    int index=0;
+    for(int i=0;i<len1;i++){
+        if(s1[i]==s2[index])  {
+            index++;
+            
+        } 
 
-            }
-        }
-    }
-    
-
-    if(s3==s2){
+        
+         }
+         
+    if(len2==index){
         printf("found");
     }
     else{
