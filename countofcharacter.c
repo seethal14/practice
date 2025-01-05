@@ -5,7 +5,7 @@ int main(){
     printf("enter string\n");
     scanf("%s",&s1);
     printf("enter the character\n");
-    scanf("%c",&c);
+    scanf(" %c",&c);
     int count=0;
     int length=strlen(s1);
     for(int i=0;i<length;i++){
